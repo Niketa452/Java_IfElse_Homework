@@ -19,14 +19,6 @@ public class EmployeeDetails {
         System.out.println("Employee's PF =  " + PF);
         double grosssalary = basicsalary + HRA + DA + TA -PF;
         System.out.println ("Employee's Gross Salary = " + grosssalary);
-
-
-
-
-
-
-
-
     }
 
 }

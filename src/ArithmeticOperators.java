@@ -1,13 +1,13 @@
 import java.util.Scanner;
 //when user enters 2 numbers and presses calcualtion key +,-,/,*,he gets an appropriate answer.
-public class Calculator {
+public class ArithmeticOperators {
 public static void main (String []args){
     Scanner scanner = new Scanner(System.in);
     System.out.println("Enter your first number");
     double a = scanner.nextDouble();
     System.out.println("Enter your second number");
     double b = scanner.nextDouble();
-    System.out.println("Enter any symbol from the following: +, -, * or /");
+    System.out.println("Choose one arithmatic operator from the following: +, -, * or /");
     char symbols = scanner.next().charAt(0);
 
     if (symbols == '+'){

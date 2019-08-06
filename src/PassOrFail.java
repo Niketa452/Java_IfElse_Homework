@@ -7,17 +7,16 @@ public class PassOrFail {
         String name = scnanner.next();
         System.out.println("Enter roll number: ");
         int rollnumber = scnanner.nextInt();
-        System.out.println("Enter Marks for English: ");
+        System.out.println("Enter marks for English: ");
         double english = scnanner.nextDouble();
-        System.out.println("Enter Marks for Maths: ");
+        System.out.println("Enter marks for Maths: ");
         double maths = scnanner.nextDouble();
-        System.out.println("Enter Marks for Science: ");
+        System.out.println("Enter marks for Science: ");
         double science = scnanner.nextDouble();
         if (english >= 35) {
             if (maths >= 35) {
                 if (science >= 35) ;
                 System.out.println("The student has passed");
-            }
             } else {
                 System.out.println("The student has failed");
             }
@@ -25,7 +24,7 @@ public class PassOrFail {
 
 
     }
-
+}
 
 
 

@@ -2,7 +2,7 @@ import java.util.Scanner;
 //when user enters any letter from a to f, he would get a city name beginning with that letter
 public class AToFCityNames {
 public static void main (String [] args){
- Scanner scanner = new Scanner(System.in);//pre-difined object
+ Scanner scanner = new Scanner(System.in);//pre-defined object
  System.out.println("Enter any letter from 'A' to 'F' to view the name of city beginning with that letter.");
   char letter  = scanner.next().charAt(0);
 if (letter=='a'|| letter == 'A') {
